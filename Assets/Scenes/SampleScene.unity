@@ -379,11 +379,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6477723106870257165, guid: dc6a77beac546c546a592896da09d856, type: 3}
       propertyPath: SpaceX
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6477723106870257165, guid: dc6a77beac546c546a592896da09d856, type: 3}
       propertyPath: SpaceY
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6477723106870257165, guid: dc6a77beac546c546a592896da09d856, type: 3}
       propertyPath: FitSize
@@ -391,11 +391,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6477723106870257165, guid: dc6a77beac546c546a592896da09d856, type: 3}
       propertyPath: OffsetX
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6477723106870257165, guid: dc6a77beac546c546a592896da09d856, type: 3}
       propertyPath: OffsetY
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6477723106870257165, guid: dc6a77beac546c546a592896da09d856, type: 3}
       propertyPath: RepeatX

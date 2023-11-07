@@ -1,10 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ItemTransformData
 {
+    /// <summary>
+    /// 坐标
+    /// </summary>
     public Vector2 pos
     {
         get
@@ -17,7 +18,9 @@ public class ItemTransformData
             item.transform.localPosition = pos;
         }
     }
-
+    /// <summary>
+    /// 高度
+    /// </summary>
     public float height
     {
         get
@@ -32,7 +35,9 @@ public class ItemTransformData
             }
         }
     }
-
+    /// <summary>
+    /// 宽度
+    /// </summary>
     public float width
     {
         get
@@ -47,7 +52,9 @@ public class ItemTransformData
             }
         }
     }
-
+    /// <summary>
+    /// 宽高
+    /// </summary>
     public Vector2 size
     {
         set
@@ -55,11 +62,17 @@ public class ItemTransformData
             _item_rect.sizeDelta = value;
         }
     }
-
+    /// <summary>
+    /// 虚拟列表索引
+    /// </summary>
     public int cell_index { get; set; }
-
+    /// <summary>
+    /// 数据列表索引
+    /// </summary>
     public int item_index { get; set; }
-
+    /// <summary>
+    /// 单元格对象
+    /// </summary>
     public Button item
     {
         get
@@ -72,11 +85,17 @@ public class ItemTransformData
             _item_rect = _item.GetComponent<RectTransform>();
         }
     }
-
+    /// <summary>
+    /// 单元格类型
+    /// </summary>
     public int item_type { get; set; }
-
+    /// <summary>
+    /// 下一单元格
+    /// </summary>
     public ItemTransformData next { get; set; }
-
+    /// <summary>
+    /// 上一单元格
+    /// </summary>
     public ItemTransformData parent { get; set; }
 
     private Button _item;
